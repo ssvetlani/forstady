@@ -1,0 +1,473 @@
+body, header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+.wide-wrapper{
+    width: 1512px;
+    margin: 0 auto;
+}
+.wrapper{
+    width: 1296px;
+    margin: 0 auto;
+}
+header{
+    padding: 22px 0;
+}
+.logo-block,
+.logo,
+nav,
+nav ul,
+nav ul li,
+nav button{
+    display: inline-block;
+}
+.logo-block, nav{
+    width: 740px ;
+}
+.logo{
+    font-weight: 600;
+    font-size: 27px;
+    width: 183px;
+    height: 64px;
+}
+nav{
+    vertical-align: top;
+}
+.nav-link{
+font-family:'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 120%;
+color: #000000;
+text-decoration: none;
+text-align: right;
+}
+nav li{
+    margin-right: 24px;
+}
+nav button{
+    font-size: 21px;
+    padding: 10px 16px;
+    background-color: #fff;
+    border: 1px solid #2203E4;
+    text-align: center;
+    color: #2203E4;
+}
+.phone-block{
+    padding: 50px 0;
+}
+.phone-img-block,
+.phone-text{
+    display: inline-block;
+}
+.phone-img-block{
+    width: 450px;
+    text-align: right;
+}
+.phone-text{
+    width: 631px;
+    vertical-align: top;
+    padding-left: 90px;
+    padding-top:120px;
+}
+h1{
+    font-family:'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 120%;
+}
+.main-btn{
+    width: 94px;
+    height: 39px;
+    background: #0062FF;
+    padding: 10px, 16px;
+    border: 1px solid #0062FF;
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.secondary-btn{
+    border: 1px solid #575757;
+    text-align: center;
+    color: #575757;
+    padding: 10px 16px;
+    background-color: #fff;
+}
+h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+}
+h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #575757;
+}
+.authors{
+    width: 1512px;
+    margin: 0 auto; 
+    padding: 50px;
+}
+.fotoMark,
+.informMark,
+.autorMark{
+    display: inline-block;
+}
+.fotoMark{
+    width: 162px;
+    height: 150px;
+    padding-right: 40px;
+}
+.Mark{
+    width: 1350px;
+    margin: 0 auto;
+}
+.informMark{
+    width: 645px;
+    height: 175px;
+}
+.massanger{
+    text-align: left;
+    padding: 5px;
+}
+.in,
+.inst,
+.fb{
+    padding: 5px;
+}
+.blockautors{
+    display: inline-block;
+    vertical-align: top;
+}
+.arrow{ 
+    display: inline-block;
+    padding: 5px;
+    vertical-align: middle;
+    height: 175px;
+    padding-left: 100px;
+
+}
+.otherautors{
+    width: 237px;
+    height: 44px;
+    display: inline-block;
+
+}
+.firstautor{
+    padding: 0px;
+    width: 237px;
+    height: 44px;
+    display: inline-block;
+}
+.seconautor{
+    padding: 0px 16px;
+    width: 209.09px;
+    height: 44px;
+    display: inline-block;
+}
+.thirdautor{
+    padding: 0px;
+    width: 167px;
+    height: 44px;
+    display: inline-block;
+}
+.nameorangebig{
+    color: #DEA405;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    margin: 0px;
+    display: inline-block;
+}
+.nameorangesmall{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFBE0B;
+    margin: 0px;
+    display: inline-block;
+}
+.name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120%;
+    color: #000000;
+    margin: 0px;
+    display: inline-block;
+}
+.h7{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    color: #575757;
+    margin: 0px;
+    
+}
+.forwho{
+    background-color: #0062FF;
+    height: 702px;
+    width: 1512px;
+    margin: 0 auto;
+}
+.forwhotext1{
+    padding-top: 50px;
+}
+.forwhotext11{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.forwhotext22{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 0px;
+}
+h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.forstudents,
+.forfreelaners,
+.foragency,
+.formarketers,
+.imgforstudents,
+.textblockstudents,
+.imgfrelaners,
+.textblockfrelaners
+.imgforagency,
+.textblockagency,
+.imgformarketers,
+.textblockmarketers,
+.forwhovariant1,
+.forwhovariant2{
+    display: inline-block;
+    vertical-align:middle;
+}|
+.forstudents,
+.forfreelaners,
+.foragency,
+.formarketers{
+    width: 652px;
+    text-align: left;
+    vertical-align:middle;
+    display: inline-block;
+}
+.forwhovariant1,
+.forwhovariant2{
+    text-align: left;
+    margin: 0 auto;
+    width: 1310px;
+    padding-left: 76px;
+    padding-bottom: 46px; 
+}
+.forwhovariant1{
+    padding-top: 40px;
+}
+.imgforstudents,
+.imgfrelaners,
+.imgforagency,
+.imgformarketers{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 48px;
+}
+.textblockstudents,
+.textblockfrelaners,
+.textblockagency,
+.textblockmarketers
+{
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 34px;
+}
+.iwantit{
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 39px;
+    padding: 10px 16px;
+    color: #2203E4;;
+    background: #FFFFFF;
+    border: 1px solid #2203E4;
+    align-items: center;
+}
+h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    color: #000000;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.checktext1{
+    padding-top: 50px;
+}
+.checktext2{
+    width: 800px;
+    display: inline-block;
+}
+.video{
+    padding-top: 25px;
+    display: inline-block;
+    width: 700px;
+}
+.checkdemo{
+    height: 650px;
+    width: 1512px;
+    margin: 0 auto;
+}
+.opinions{
+    background-color: #FFBE0B;
+    height: 550px;
+    width: 1512px;
+    margin: 0 auto;
+}
+.comment{
+    margin: 0 auto;
+    text-align: center;
+}
+.opinionstext1{
+    padding-top: 50px;
+    margin: 15px;
+}
+.textproduct{
+    color: #2203E4;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+}
+.startwithus{
+    margin: 0 auto;
+    display: block;
+    height: 550px;
+    width: 1050px;
+}
+.startext1{
+    padding-top: 50px;
+}
+.phonestart{
+    margin: 0 auto;
+    width: 350px;
+    display: inline-block;
+    margin: auto;
+    text-align: right;
+    }
+.product{
+    display: inline-block;
+    width: 600px;
+    margin: 0 auto;
+    height: 320px;
+    vertical-align: bottom;
+    padding-top: 100px;    
+}
+.addtocart{
+    width: 150px;
+    height: 39px;
+    background: #0062FF;
+    padding: 10px 16px;
+    border: 1px solid #0062FF;
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+}
+.textdiscount{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120%;
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 28px;
+}
+.email{
+    width: 476px;
+    height: 80px;
+    border-radius: 12px;
+    background-color: rgba(58, 134, 255, 0.2);
+    border:  rgba(58, 134, 255, 0.2);
+    margin-top: 150px;
+    display: block;
+    margin: auto;
+    padding-left: 24px;
+}
+::placeholder{
+    color: #2203E4;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    left: 24px;
+    top: 25px;
+}
+.btndisc{
+    width: 800px;
+    height: 140px;
+    padding-top: 15px;
+    margin: auto;
+}
+
+.btndiscount{
+    width: 500px;
+    height: 39px;
+    background: #0062FF;
+    padding: 10px 16px;
+    border: 1px solid #0062FF;
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 120%;
+    display: block; 
+    margin: auto;
+    }
