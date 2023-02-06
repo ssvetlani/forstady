@@ -1,0 +1,443 @@
+body, header{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: 5448px;
+    overflow-y: scroll;
+    background: #000000;
+}
+.background{
+    background-image: url(../HW6/img6/Background6.png);
+    width: 100%;
+    height: 1573px;
+    margin: 0 auto;
+    position: relative;
+    background-size: cover;
+}
+.logo-block{
+    position: absolute;
+    width: 1751px;
+    height: 25px;
+    left: 85px;
+    top: 64px;
+
+}
+.logo{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.nav-link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: right;
+    
+}
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+.menublock{
+    position: absolute;
+    width: 348px;
+    height: 25px;
+    left: 606px;
+}
+.logo-block,
+.logo,
+.background,
+.searchbutton,
+.search,
+nav,
+nav ul,
+nav ul li{
+    display: inline-block;
+}
+.socialsvertical p{
+    width: 100px;
+    transform: rotate(90deg);
+    margin-bottom: 35px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.socialsvertical{
+    width: 25px;
+    height: 214px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    left: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.maintext{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 287px;
+    align-items: center;
+    width: 950px;
+    height: 261px;
+}
+.firsttext::before{
+    content: url(../HW6/img6/line.png);
+    display: block;
+    position: absolute;
+     top: -5px; 
+     left: -104px;
+}
+.firsttext{
+    position: absolute;
+    width: 950px;
+    height: 25px;
+    left: 104px;
+    top: 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;  
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FFC178;
+
+}
+.discover{
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    padding-top: 32px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+.wonderful{
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-left: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.scroll{
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    width: 101px;
+    height: 25px;
+    left: 897px;
+    top: 674px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.scroll::after{
+    content: url(../HW6/img6/arrowdown.png);
+    display: block;
+    position: absolute;
+    left: 110px;
+    top: 0px;
+}
+.information{
+    position: relative;
+    background-color: #000;
+    width: 1462px;
+    height: 721px;
+    margin: 0 auto;
+
+}
+.tenggarablock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textblock{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 232px;
+}
+.befortext::before{
+    content: url(../HW6/img6/line.png);
+  
+}
+.befortext{}
+   
+h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+
+h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    color: #FFFFFF;
+}
+h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.littletext{
+    display: block;
+    width: 632px;
+    height: 160px;
+}
+.linkreadmore{
+    display: block;
+    width: 127px;
+    height: 25px;
+    color: #FBD784;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+.bromo{
+    display: flex;
+    position: relative;
+    width: 1461px;
+    height: 985px;
+    margin: 0 auto;
+    background-image: url(../HW6/img6/bromoimg.png);
+    margin-top: 250px;
+    align-items: END;
+    flex-direction: ROW;
+}
+.bromoblock{
+    width: 1461px;
+    height: 440px;
+}
+.beforbromo{
+    width: 296px;
+    height: 25px;
+}
+.beforbromo::before{
+    content: url(../HW6/img6/line.png);
+}
+.beforbromo::after{
+    content: url(../HW6/img6/line.png);
+}
+.textblock2{
+    display: flex;
+    width: 1163px;
+    height: 439px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.maintext2{
+    display: block;
+    margin: 5px;
+}
+.linkreadmore{
+    text-decoration: none;
+}
+.indonesianculture{
+    display: flex;
+    position: relative;
+    width: 1461px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 250px;
+    justify-content: space-between;
+}
+.befortext3::before{
+content: url(../HW6/img6/line.png);
+}
+.textblock3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-right: 210px;
+    width: 600px;
+}
+.footer{
+    /*display: flex;*/
+    position: relative;
+    width: 1461px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 250px;
+    /*justify-content: space-between;*/
+}
+.startfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.ready{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-right: 60px;
+}
+.logoblock{
+    display: flex;
+    justify-content: flex-start;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
+.orangebtn{
+    width: 240px;
+    height: 69px;
+    background: #FFA343;
+    border-radius: 8px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+}
+.line{
+    opacity: 30%;
+}
+.mainfooter{
+    width: 1461px;
+    height: 248px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.emailfooter{
+    display: flex;
+    flex-direction: column;
+
+}
+.email{
+    display: flex;
+    width: 400px;
+    height: 221px;
+    align-items: flex-start;
+}
+.emailtext{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+}
+.emailinput{
+    border: none ;
+    width: 400px;
+    height: 60px;
+    background-color: #000;
+}
+.btninput{
+    width: 130px;
+    height: 67px;
+    background: #FFA343;
+    border-radius: 8px 8px 0px 0px;
+}
+.placeholder{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.204545px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.Services,
+.About,
+.Help{
+    display: flex;
+    width: 147px;
+    height: 248px;
+    flex-direction: column;
+}
+.yellow{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: -0.231818px;
+    color: #FFD1A0;
+}
+.socialend{
+    position: relative;
+    width: 1379px;
+    height: 30px;
+    top: 100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+}
+.PrivacyPolicy{
+    display: flex;
+    height: 20px;
+    width: 450px;
+    width: 320px;
+    justify-content: space-between;
+}
+.text4{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.204545px;
+    color: #FFFFFF;
+}
+.socialend2{
+    display: flex;
+    width: 173px;
+    height: 30px;
+justify-content: space-between;
+}
