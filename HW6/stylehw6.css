@@ -19,18 +19,51 @@ body, header{
     background-size: cover;
 }
 .logo-block{
-    position: absolute;
-    width: 1751px;
+    display: flex;
+    justify-content: space-between;
+    width: 1920px;
     height: 25px;
-    left: 85px;
-    top: 64px;
-
+    padding-left: 85px;
+    padding-top: 64px;
 }
 .logo{
+    display: flex;
+    justify-content: flex-start;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
+    color: #FFFFFF;
+}
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+.menublock{
+    display: flex;
+    width: 348px;
+    height: 25px;
+    left: 606px;
+}
+.input{
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    opacity: 100%;
+    background: #ffffff00;
+}
+.btninput1{
+    border: none;
+    background: #ffffff00;
+}
+.input::placeholder{
+    opacity: 80%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
     color: #FFFFFF;
 }
 .nav-link{
@@ -42,20 +75,8 @@ body, header{
     color: #FFFFFF;
     text-decoration: none;
     text-align: right;
-    
 }
-.navigate{
-    display: flex;
-    justify-content: space-between;
-    width: 450px;
-}
-.menublock{
-    position: absolute;
-    width: 348px;
-    height: 25px;
-    left: 606px;
-}
-.logo-block,
+/* .logo-block,
 .logo,
 .background,
 .searchbutton,
@@ -64,7 +85,7 @@ nav,
 nav ul,
 nav ul li{
     display: inline-block;
-}
+} */
 .socialsvertical p{
     width: 100px;
     transform: rotate(90deg);
@@ -214,13 +235,15 @@ h1{
     line-height: 87px;
     color: #FFFFFF;
 }
-h3{
+h3,
+.h3{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 .littletext{
     display: block;
@@ -375,6 +398,7 @@ content: url(../HW6/img6/line.png);
     width: 400px;
     height: 60px;
     background-color: #000;
+    border-bottom: 2px solid #ffffff85;
 }
 .btninput{
     width: 130px;
@@ -382,7 +406,7 @@ content: url(../HW6/img6/line.png);
     background: #FFA343;
     border-radius: 8px 8px 0px 0px;
 }
-.placeholder{
+.emai::placeholder{
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -400,6 +424,8 @@ content: url(../HW6/img6/line.png);
     width: 147px;
     height: 248px;
     flex-direction: column;
+    gap: 30px;
+    padding-top: 55px;
 }
 .yellow{
     font-family: 'Open Sans';
@@ -409,6 +435,7 @@ content: url(../HW6/img6/line.png);
     line-height: 0px;
     letter-spacing: -0.231818px;
     color: #FFD1A0;
+    text-decoration: none;
 }
 .socialend{
     position: relative;
@@ -439,5 +466,5 @@ content: url(../HW6/img6/line.png);
     display: flex;
     width: 173px;
     height: 30px;
-justify-content: space-between;
+    justify-content: space-between;
 }
