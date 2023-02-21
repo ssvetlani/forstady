@@ -1,0 +1,237 @@
+header,body{
+    font-size: 20px;
+}
+header{
+    width: 100%;
+    height: 4em;
+    background-color: #668E68;
+}
+.placeforheader{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 57em;
+    margin: 0 auto;
+    padding: 0.7em;
+}
+.logo{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2em;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 27em;
+    align-self: center;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.grandopen{
+    height: 26em;
+    width: 100%;
+    background-image: url(../HW8/img8/footerback.png);
+}
+.maintext{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.5em;
+    /* line-height: 177px; */
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 2em;
+}
+.menutext{
+    margin: auto;
+    height: 3em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+.newstext1{
+    font-family: 'Gothic+A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    color: #000000;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.drinks{
+    height: 21em;
+    width: 57em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.drink1{
+    border: solid 9px #81613B;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 17.5em;
+    width: 17.5em;
+    background-size: cover;
+    background-image: url(../HW8/img8/drinks1.png);
+}
+.drink2{
+    border: solid 9px #81613B;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 17.5em;
+    width: 17.5em;
+    background-image: url(../HW8/img8/drinks2.png);
+}
+.drink3{
+    border: solid 9px #81613B;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 17.5em;
+    width: 17.5em;
+    background-image: url(../HW8/img8/drinks3.png);
+}
+.notes{
+    display: block;
+    height: 3em;
+    background: #e9ebe9c2;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: center;
+    color: #000000;
+    overflow: hidden;
+    margin-top: 11em;
+    text-decoration: none;
+}
+.greenbtn{
+    width: 8em;
+    height: 2em;
+    background: #668E68;
+    border-radius: 20px;
+    margin: auto;
+    border: none;
+    color: #FFFFFF;
+    display: block;
+}
+.about{
+    width: 100%;
+    height: 30em;
+    background-image: url(../HW8/img8/aboutbackg.png);
+}
+h2{
+    font-family: 'Gothic+A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+.NEWS{
+    width: 100%;
+    background-color: #dac5aa66;
+    padding-bottom: 2em;
+}
+.news{
+    width: 57em;
+    background-color: #ffffff66;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid #668E68;
+    margin: auto;
+}
+h3{
+    font-family: 'Gothic+A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7em;
+    text-align: center;
+    color: #000000;
+}
+.newstext{
+    display: flex;
+    padding-left: 1em;
+}
+footer{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    background-color: #000000;
+}
+.footer{
+    width: 57em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.contact,
+.reserved{
+    font-family: 'Gothic+A1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7em;
+    line-height: 1.2em;
+    color: #FFFFFF;
+}
+.burgermenu{
+    display: none;
+}
+@media (max-width:1160px){
+    .menu{
+        display: none;
+    }
+    .burgermenu{
+        display: block;
+        padding-right: 2em;
+    }
+    .placeforheader{
+        width: 100%;
+    }
+    .drinks{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        height: 60em;
+        padding-bottom: 2em;
+    }
+    /* header,body{
+        font-size: 15 px;
+    } */
+    .footer{
+        flex-direction: column;
+        height: 5em;
+        align-items: center;
+        width: 100%;
+    }
+    .news{
+        width: 85%;
+        padding: auto;
+    }
+    header,body{
+        font-size: 15px;
+    }
+    .maintext{
+        text-align: center;
+    }
+    .about{
+        height: 40em;
+    }
+}
