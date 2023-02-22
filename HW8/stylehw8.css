@@ -38,7 +38,9 @@ header{
     color: #FFFFFF;
 }
 .grandopen{
-    height: 26em;
+    /* height: 26em; */
+    background-size: cover;
+    /* padding: 5em; */
     width: 100%;
     background-image: url(../HW8/img8/footerback.png);
 }
@@ -50,7 +52,8 @@ header{
     /* line-height: 177px; */
     text-align: center;
     color: #FFFFFF;
-    padding-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .menutext{
     margin: auto;
@@ -198,12 +201,16 @@ footer{
     .menu{
         display: none;
     }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+    }
     .burgermenu{
         display: block;
-        padding-right: 2em;
+        /* padding-right: 2em; */
     }
     .placeforheader{
-        width: 100%;
+        width: 90%;
     }
     .drinks{
         width: 100%;
