@@ -1,0 +1,521 @@
+header{
+    width: 100%;
+    background-image: url(../HW9/img9/frontblockbackgr.png);
+    background-size: cover;
+}
+.frontblock{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 85%;
+    padding-top: 3%;
+}
+.logo{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.navigation{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-linkellow{
+    text-decoration: none;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #FF9900;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.grid{
+    display: grid;
+    width: 85%;
+    grid-template-columns: 40% 40%;
+    padding-top: 12%;
+    gap: 12%;
+    margin: auto;
+    padding-bottom: 20%;
+}
+h1{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.titletext{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.quotetext{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.ellowtext{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38px;
+    color: #FF9900;
+    text-align: end;
+}
+.ourstory{
+    width: 100%;
+    background-color: #E5E5E5;
+    padding-bottom: 5%;
+}
+.ourstoryblock2{
+    width: 85%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.textcenter{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+.textright{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+h2{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FF9900;
+}
+.h2{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #000000;
+}
+.storyellowtext{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #FF9900;
+}
+.storygrid{
+    margin: auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 3%;
+    margin-bottom: 3%;
+}
+.storygrid>div{
+    align-content: space-between;
+}
+.storygrid>div:nth-child(4){
+    justify-items: start;
+    display: grid;  
+}
+.storygrid>div:nth-child(5){
+    justify-items: start;
+    display: grid;  
+}
+.storyimg{
+    width: 100%;
+}
+.read{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: auto;
+}
+.readimg{
+    width: 8%;
+}
+.underline{
+    align-items: end;
+    text-decoration: none;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #000000;
+}
+.storygrid>div:nth-child(2){
+    grid-column: 2/3;
+    grid-row: 1/3;
+    justify-items: center;
+    display: grid;  
+}
+.ourcollection{
+    width: 100%;
+    margin: auto;
+    background-image: url(../HW9/img9/twooline.png);
+    padding-bottom: 5%;
+}
+.ourcollectionblock{
+    padding-top: 4%;
+    padding-bottom: 3%;
+    width: 85%;
+    margin: auto;
+}
+.collectiongrid{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 3%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+h3{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-top: 75%;
+    margin: auto;
+    width: 90%;
+}
+.textunderline{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-bottom: 10%;
+    padding-left: 5%;
+}
+.imgline{
+    align-items: start;
+    padding-left: 5%;
+}
+.collection1{
+    background-image: url(../HW9/img9/collection1.png);
+    width: 100%;
+    background-size: cover;
+}
+.collection2{
+    background-image: url(../HW9/img9/collection2.png);
+    width: 100%;
+    background-size: cover;
+}
+.collection3{
+    background-image: url(../HW9/img9/collection3.png);
+    width: 100%;
+    background-size: cover;
+}
+.collection4{
+    background-image: url(../HW9/img9/collection4.png);
+    width: 100%;
+    background-size: cover;
+}
+.dirigible{
+    background-image: url(../HW9/img9/background2.png);
+    width: 100%;
+    background-size: cover;
+}
+.dirigibleblock{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+    padding-bottom: 5%;
+}
+.dirigibletext{
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    padding-top: 33%;
+}
+.dirigibletext1{
+
+}
+h4{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+.imglogo{
+    padding-top: 15%;
+    padding-bottom: 80%;
+}
+.dirigibletextright{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 70%;
+}
+.readimgdirigible{
+    width: 15%;
+}
+.diversityblock{
+    width: 85%;
+    margin: auto;
+}
+.diversitymain{
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.diversitygrid{
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: 1fr;
+    padding-bottom: 5%;
+    width: 85%;
+    margin: auto;
+    grid-column-gap: 2%;
+}
+.diversitygridfirstcolumn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 35% 25% 25%;
+    grid-template-rows: 45% 30% 30%;
+    width: 100%;
+}
+.diversitygridfirstcolumn>div:nth-child(1){
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.diversitygridfirstcolumn>div:nth-child(2){
+    display: flex;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.diversitygridfirstcolumn>div:nth-child(3){
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.diversitygridthirtcolumn{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+    width: 85%;
+}
+.diversitygridthirtcolumn>div:nth-child(1){
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    /* justify-items: center; */
+}
+.diversitygridthirtcolumn>div:nth-child(2){
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    /* justify-items: center; */
+    width: 45%;
+    padding-top: 5%;
+}
+.diversitygridthirtcolumn>div:nth-child(3){
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 55%;
+}
+.diversitygridthirtcolumn>div:nth-child(4){
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    /* justify-items: center; */
+    width: 70%;
+}
+.imgpaddingright{
+    padding-right: 2%;
+}
+/* .centerimg{
+    width: 100%;
+} */
+.rigtimg{
+    width: 150%;
+}
+.leftimg{
+    width: 100%;
+}
+.twoimg{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.twoimgleft{
+    width: 43%;
+}
+.twoimgright{
+    width: 50%;
+
+}
+.awards{
+    width: 100%;
+    background-color: #F6FDEE;
+}
+.awardsblock{
+    width: 85%;
+    margin: auto;
+}
+.awardgrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    width: 90%;
+    margin: auto;
+}
+.awardtwoimgleft{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+}
+.awardtwoimgcenter{
+    align-self: center;
+    justify-self: center;
+}
+.awardtwoimgright{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+}
+footer{
+    width: 100%;
+    background-image: url(../HW9/img9/backgrfooter.png);
+    background-size: cover;
+}
+.footerblock{
+    width: 85%;
+    margin: auto;
+}
+.footergrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    margin: auto;
+    margin-top: 8%;
+}
+h5{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #000000;
+}
+.footergrid>div:nth-child(1){
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.footergrid>div:nth-child(2){
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.footergrid>div:nth-child(3){
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.footergrid>div:nth-child(4){
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.footergrid>div:nth-child(5){
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.footergrid>div:nth-child(6){
+    display: grid;
+    grid-column: 3/5;
+    grid-row: 2/3;
+}
+button{
+    background-color: #FF9900;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #000000;
+    width: 5%;
+    width: 8%;
+    border: none;
+    margin-left: 92%;
+    margin-bottom: 10%;
+}
+.footertext{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    
+    color: #000000; 
+}
+.footerblockend{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.footerblock img{
+    width: 100%;
+}
