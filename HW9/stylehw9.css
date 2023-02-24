@@ -73,6 +73,15 @@ h1{
     text-align: right;
     color: #FFFFFF;
 }
+.titletextellow{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    text-align: right;
+    color: #FF9900;
+}
 .quotetext{
     font-family: 'Philosopher';
     font-style: normal;
